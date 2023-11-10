@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="iconekel.ico" type="image/x-icon">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente
+        e diminua o tamanho do seu navegador.
+    </p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/imagens300.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/imagens700.png" type="image/png">
+        <img src="imagens/imagens1000.png" alt="imagem flexivel">
+    </picture>
+        <!--Usar arquivos pequenos para navegação, arquivo grande só para download-->
+    <h1>Reproduzindo audios</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5</p>
+    
+    <audio preload="none" controls>
+        <source src="midia/majorrd.mp3" type="audio/mpeg">   <!--Usar o source para aumentar a compatibilidade do navegador-->
+        <source src="midia/majorrd.wav" type="audio/wav">
+        <p>Infelimente seu navegador não consegue reproduzir o audio. <a href="midia/majorrd.mp3">Clique aqui para baixar</a></p>
+    </audio>
+    
+
+   
+</body>
+</html>

@@ -1,0 +1,97 @@
+body{
+    background-color: #FA7F08;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+
+}
+
+header{
+    background-color: #348888;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+
+}
+
+nav{
+    background-color: #22BABB;
+    padding: 3px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.471);
+
+}
+
+nav > a{
+    text-align: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 40px;
+    margin-left: 10px;
+    
+    
+}
+
+nav > a:hover{
+    color: rgb(133, 57, 29);
+    text-decoration: underline dimgray;
+}
+
+main{
+    background-color: #348888;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+
+}
+
+article{
+    background-color: #22BABB;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.471);
+    text-align: justify;
+
+}
+
+article > aside{
+    background-color:#76c7be;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+footer{
+    background-color: #1e4e4e;
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    margin: 0px;
+    text-align: center;
+}
+
+footer > p{
+    margin: 0px;
+}
+
+div#redes{
+    color: white;
+    text-align: center;
+    background-color: #1a4444;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+div#voltar{
+    text-align: right;
+
+}
+
+#voltar > a{
+    color: aqua;
+    text-decoration: none;
+}
