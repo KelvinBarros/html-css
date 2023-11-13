@@ -1,0 +1,29 @@
+
+
+
+#conteiner{
+    
+    background-image: url('imagens/target001.png');
+    background-size: 100% 100%;
+
+    position: relative;/* por padrão é relativo*/
+    height: 500px;
+    background-color: purple;
+    padding: 10px;
+    height: 96vh; /*VH= VIEWPORT HEIGHT*/
+}
+
+#conteudo{
+    background-image: url('imagens/target001.png');
+    background-size: 100% 100%;
+    position: absolute; /* permite configurar uma caixa em varios lugares usando top, left, rigth, bottom*/
+
+
+    height: 200px;
+    width: 400px;
+
+    left: 50%;
+    top: 50%;
+
+    background-color: yellow;
+}
