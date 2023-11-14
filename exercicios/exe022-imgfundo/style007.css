@@ -6,7 +6,7 @@
     background-image: url('imagens/target001.png');
     background-size: 100% 100%;
 
-    position: relative;/* por padrão é relativo*/
+    position: relative;/* por padrão é relativo----SEMPRE COLOCAR O CONTEINER RELATIVO*/
     height: 500px;
     background-color: purple;
     padding: 10px;
@@ -24,6 +24,8 @@
 
     left: 50%;
     top: 50%;
+
+    transform: translate(-50%, -50%);
 
     background-color: yellow;
 }
