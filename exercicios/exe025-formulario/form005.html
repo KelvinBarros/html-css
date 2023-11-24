@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 5</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Treinando Radio e Checkbox</h1>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Cadastro</legend>
+            <P>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome"  id="inome" required autocomplete="name">
+            </P>
+            <p>
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="email" id="iemail" required autocomplete="email">
+            </p>
+            <p>
+                <label for="isexo">Sexo:</label>
+                <input type="radio" name="sexo" id="isexo" >
+            </p>
+            <p>
+                <label for="iprof">Nivel profissional:</label>
+                <input type="checkbox" name="jr" id="ijr"> <label for="ijr">Junior</label>
+                <input type="checkbox" name="pl" id="ipl"> <label for="ipl">Pleno</label>
+                <input type="checkbox" name="sr" id="isr"> <label for="isr">Senior</label>
+               
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
