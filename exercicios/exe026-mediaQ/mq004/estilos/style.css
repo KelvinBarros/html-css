@@ -19,14 +19,16 @@ html {
 }
 
 body {
-    background: black url(../imagens/back-phone.jpg) no-repeat;
+    background: black url(../imagens/back-phone.jpg) center center  no-repeat ;
+    background-size: cover;
+    
 }
 
 
 
 main {
     color: rgb(0, 0, 0);
-    background-color: rgba(255, 255, 255, 0.897);
+    background-color: rgba(255, 255, 255, 0.637);
     width: 90vw;
     margin: auto;
     border-radius: 10px;
