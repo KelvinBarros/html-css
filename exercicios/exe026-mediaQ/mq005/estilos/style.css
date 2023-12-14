@@ -21,11 +21,20 @@ menu{
     background-color: rgb(196, 196, 196);
 }
 
-ul{
-    display: inline-block;
+menu ul{
+    list-style-type: none;
+}
 
+menu li{
+    display: inline-block;
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 article{
     background-color: rgb(255, 255, 255);
+    max-width: 800px;
+    
 }
