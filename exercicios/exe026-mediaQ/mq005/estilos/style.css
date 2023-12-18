@@ -87,6 +87,7 @@ article h1{
     #burguer{
         display: block;
         background-color: black;
+        color: white;
         text-align: center;
         padding: 5px;
         cursor: pointer;
