@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+
+/* cores usadas, em ordem de tom forte > fraco*/
+/* #5450ca \\#565AA6 \\ #8F92BF \\ #BABCD9 \\ #F0F0F2
+
+*/
 *{
     margin: 0px;
     padding: 0px;
@@ -9,7 +14,7 @@ body{
     background-color:#BABCD9;
 }
 header{
-    background-color: #3632A6;
+    background-color: #5450ca;
     color: #F0F0F2;
     height: 50px;
 }
