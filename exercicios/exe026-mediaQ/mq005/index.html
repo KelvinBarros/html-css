@@ -6,24 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
     <title>Media query exe final</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <header>
     <h1>Meu site</h1>
+    <span id="burguer" class="material-symbols-outlined">
+        menu
+    </span>
 </header>
-
-<menu>
+<span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+    menu
+</span>
+<menu id="menu">
     <ul>
         <a href="#">
-            <li>Exemplo 1</li>
+            <li>Piadas</li>
         </a>
         <a href="#">
-            <li>Exemplo 2</li>
+            <li>Historia triste</li>
         </a>
         <a href="#">
-            <li>Exemplo 3</li>
+            <li>Memes de qualidade duvidosa </li>
         </a>
         <a href="#">
-            <li>Exemplo 4</li>
+            <li>Fale conosco</li>
         </a>
     </ul>
 </menu>
@@ -40,7 +47,9 @@
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, sapiente. Aliquam, quidem amet rem
                 delectus ullam excepturi odio vero architecto numquam odit ipsa ipsum exercitationem doloremque,
-                voluptates maiores sequi. Quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At voluptatibus magni expedita quam in repellendus molestias nesciunt atque. Expedita obcaecati tempore eum earum modi quasi accusamus at in magnam placeat.</p><br>
+                voluptates maiores sequi. Quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+                voluptatibus magni expedita quam in repellendus molestias nesciunt atque. Expedita obcaecati tempore eum
+                earum modi quasi accusamus at in magnam placeat.</p><br>
 
             <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur voluptatibus ad quam nulla
                 officiis ex ut quo culpa odit quidem aut nisi eaque, accusantium illum omnis odio itaque aliquid
@@ -53,6 +62,17 @@
                 necessitatibus ullam, commodi dolore sunt architecto, facilis inventore est dolorum.</p>
         </article>
     </main>
+
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+
+        }
+    </script>
 </body>
 
 </html>
