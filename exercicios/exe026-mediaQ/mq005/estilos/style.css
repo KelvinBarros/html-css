@@ -6,10 +6,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-color: gainsboro;
+    background-color:#BABCD9;
 }
 header{
-    background-color: lightgray;
+    background-color: #3632A6;
+    color: #F0F0F2;
+    height: 50px;
 }
 
 header h1{
@@ -18,7 +20,7 @@ header h1{
 }
 
 menu{
-    background-color: rgb(196, 196, 196);
+    background-color:#8F92BF;
 }
 
 menu ul{
@@ -27,7 +29,7 @@ menu ul{
 
 menu li{
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.527);
+    background-color:#565AA6;
     color: aliceblue;
     padding: 10px 5px;
     border-radius: 5px;
@@ -39,18 +41,18 @@ menu a{
 }
 
 menu li:hover{
-    background-color: rgb(129, 129, 129);
+    background-color:#8F92BF;
 }
 
 article{
-    background-color: rgb(255, 255, 255);
+    background-color:#f0f0f2c7;
     max-width: 800px;
     margin: auto;
     margin-top: 10px;
     padding: 10px;
     border-radius: 10px;
     text-indent: 20px;
-    text-align: justify;
+    text-align: justify;  
 
 }
 
@@ -62,5 +64,13 @@ article h1{
     article{
         margin-left: 5px;
         margin-right: 5px;
+    }
+
+    menu li {
+        display: block;
+        text-align: center;
+        border-radius: 0px;
+        border: 1px solid #BABCD9;
+
     }
 }
